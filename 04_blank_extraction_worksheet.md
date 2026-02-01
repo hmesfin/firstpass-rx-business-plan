@@ -1,4 +1,4 @@
-# FirstPass Rx — PA Criteria Extraction Worksheet
+# FirstPass Rx — Blank PA Criteria Extraction Worksheet
 
 ## Blank Template
 
