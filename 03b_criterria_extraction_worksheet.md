@@ -2,9 +2,13 @@ FirstPass Rx — PA Criteria Extraction Worksheet Example
 
 Insurers in MN: Blue Cross and Blue Shield of Minnesota (BCBS MN), UnitedHealthCare, HealthPartners, Humana, Medica, Aetna. 
 
+UnitedHealthCare:  https://www.uhcprovider.com/en/prior-auth-advance-notification/prior-auth-specialty-drugs/prior-auth-pharmacy-medical-necessity.html
+
 Drug/Drug Class/ BCBS/Prime Therapeutics + PBM Combination Profile
 
 BCBS UM document search URL: https://www.bluecrossmn.com/forms/search?
+
+Example A: GLP-1 agents
 
 GLP-1 RA - For Diabetes type II DM
 Commercial PAQL Program Name: GLP-1 (glucagon-like peptide-1) Agonists Prior Authorization with Quantity Limit.
