@@ -11,7 +11,9 @@ BCBS UM document search URL: https://www.bluecrossmn.com/forms/search?
 Example A: GLP-1 agents
 
 GLP-1 RA - For Diabetes type II DM
+
 Commercial PAQL Program Name: GLP-1 (glucagon-like peptide-1) Agonists Prior Authorization with Quantity Limit.
+
 COM Criteria Shortened URL: https://shorturl.at/zXO9I
 
 Applicable to Formularies: FlexRx Closed, FlexRx Open, FocusRx, GenRx Closed, GenRx Open, Health Insurance
