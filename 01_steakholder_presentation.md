@@ -24,12 +24,14 @@ Every day, patients wait for life-changing medications while paperwork sits in l
 
 | Metric | Impact |
 |--------|--------|
-| **34%** | of prior authorizations require resubmission due to incomplete information |
-| **2+ days** | average delay per PA request with missing documentation |
-| **$31** | average cost to a practice per PA submission |
+| **$75.5 billion** | in annual Part D drug spend gated behind PA requirements |
+| **28.1%** | of all drug-plan combinations require prior authorization |
+| **7.7%** | PA denial rate — up from 5.9% in 2019 and rising |
+| **80.7%** | of appealed denials are overturned — most denials were approvable |
+| **Only 12.2%** | of denials are ever appealed — 2.9 million approvals left on table annually |
 | **24%** | of patients abandon treatment after PA delays or denials |
 
-> *Sources: AMA Prior Authorization Survey, MGMA Practice Operations Report*
+> *Sources: CMS Formulary PUF (Jan 2026), KFF/CMS 2024, AMA Prior Authorization Survey*
 
 ---
 
@@ -253,34 +255,37 @@ As we process more submissions, we capture patterns and outcomes—building an i
 | Metric | Value |
 |--------|-------|
 | US Specialty Drug Spend (2024) | **$350+ billion** |
-| Growth Rate | **8-10% annually** |
-| Specialty Drugs as % of Total Drug Spend | **~55%** (and growing) |
-| % of Specialty Drugs Requiring PA | **>90%** |
+| Annual PA-Gated Drug Spend (Part D) | **$75.5 billion** |
+| Brand Drug PA Rate | **51.4%** |
+| Drugs >$5K/Claim PA Rate | **85.7%** |
+| Annual MA PA Requests | **52.8 million** |
+| Drug Value Left on Table (Unappealed Denials) | **$4.0 billion/year** |
 
-> *Sources: IQVIA, Drug Channels Institute*
+> *Sources: IQVIA, CMS Formulary PUF (Jan 2026), KFF/CMS 2024*
 
 ---
 
 ## Target Market: Specialty Practices
 
-### Initial Focus
+### Initial Focus (Ranked by CMS PA Burden Data)
 
-| Segment | Why |
-|---------|-----|
-| **Oncology Clinics** | High-cost drugs, complex PAs, time-sensitive treatment |
-| **Dermatology Practices** | High volume of biologic PAs (Humira, Stelara, Skyrizi) |
-| **Endocrinology/Diabetes** | GLP-1 explosion (Mounjaro, Wegovy, Zepbound) |
-| **Rheumatology** | Biologic-heavy, step therapy requirements |
-| **Infusion Centers** | Buy-and-bill drugs, medical benefit PAs |
+| Segment | Why | PA Burden Rank |
+|---------|-----|----------------|
+| **Endocrinology/Diabetes** | GLP-1s are #1 PA burden drug class nationally; 184 PAs/year per provider | Highest |
+| **Rheumatology** | TNF inhibitors/JAK inhibitors have near-universal PA; 163 PAs/year per provider | Very High |
+| **Oncology Clinics** | Antineoplastics have 90.1% PA rate across 281 drugs; 154 PAs/year per provider | Very High |
+| **Dermatology Practices** | High volume of biologic PAs (Dupixent, adalimumab biosimilars) | High |
+| **Cardiology** | PCSK9 inhibitors (evolocumab, alirocumab) have ~100% PA rate | High |
 
-### Market Size (Specialty Practices in US)
+### Most Restrictive Payers (Our Customers Need Us Most Here)
 
-| Segment | # of Practices | Avg PAs/Month | Market Size |
-|---------|----------------|---------------|-------------|
-| Oncology | ~3,000 | 50-100 | High |
-| Dermatology | ~12,000 | 20-50 | High |
-| Endocrinology | ~5,000 | 30-60 | Medium-High |
-| Rheumatology | ~4,000 | 30-50 | Medium-High |
+| Payer | PA Rate | Denial Rate (MA) | Appeal Overturn | Notes |
+|-------|---------|-------------------|-----------------|-------|
+| **Molina Healthcare** | 33% | N/A | N/A | Highest formulary PA rate; D-SNP focus |
+| **BCBS (various)** | 30% | N/A | N/A | Includes BCBS of MN |
+| **CVS Health / Aetna** | 28% | 11.6% | **93%** | 93% of appealed denials overturned |
+| **UnitedHealth / OptumRx** | 25% | **12.6%** | 79% | Highest MA denial rate nationally |
+| **Centene** | N/A | **11.9%** | **95.3%** | True "appropriate denial" rate: ~0.6% |
 
 ---
 
@@ -393,19 +398,20 @@ We're not trying to process every PA in healthcare. We're focused on the highest
 
 ---
 
-## Phase 1: Pilot (Q2 2026)
+## Phase 1: Pilot (Q3 2026)
 
 ### Objectives
 
-- Prove the model works
+- Prove the model works — MVP Go Live: **July 7, 2026**
 - Achieve 85%+ first-pass approval rate
 - Generate case studies and testimonials
 
 ### Targets
 
-- 2-3 pilot practices (oncology, derm, or endo)
+- 2-3 pilot practices (endocrinology and rheumatology in MN)
 - 50-100 submissions/month
 - Hands-on service delivery
+- Focus on GLP-1 and TNF inhibitor PAs
 
 ### Pilot Terms
 
@@ -415,7 +421,7 @@ We're not trying to process every PA in healthcare. We're focused on the highest
 
 ---
 
-## Phase 2: Early Growth (Q3-Q4 2026)
+## Phase 2: Early Growth (Q4 2026)
 
 ### Objectives
 
@@ -458,21 +464,22 @@ We're not trying to process every PA in healthcare. We're focused on the highest
 
 ```
 2026
-─────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────────
 
-JAN             FEB             MAR             APR             MAY-JUN
-│               │               │               │               │
-▼               ▼               ▼               ▼               ▼
-┌───────────┐   ┌───────────┐   ┌───────────┐   ┌───────────────────────┐
-│ FOUNDATION│   │   BUILD   │   │  TEST &   │   │      LIVE PILOT       │
-│           │   │           │   │  RECRUIT  │   │                       │
-│• Knowledge│   │• Core app │   │• Dry runs │   │• 2-3 pilot clinics    │
-│  capture  │   │• Validation   │• Fix gaps │   │• Track outcomes       │
-│• Drug/PBM │   │  engine   │   │• Sign     │   │• Iterate rapidly      │
-│  criteria │   │• Reviewer │   │  pilots   │   │• Build case studies   │
-│• Infra    │   │  workbench│   │• Training │   │                       │
-│  setup    │   │           │   │           │   │                       │
-└───────────┘   └───────────┘   └───────────┘   └───────────────────────┘
+JAN-FEB           MAR-APR           MAY-JUN           JUL 7          AUG-SEP
+│                 │                 │                 │               │
+▼                 ▼                 ▼                 ▼               ▼
+┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐
+│  FOUNDATION  │  │    BUILD     │  │   TEST &     │  │     LIVE PILOT       │
+│              │  │              │  │   RECRUIT    │  │                      │
+│• Knowledge   │  │• Core app    │  │• Dry runs    │  │• 2-3 pilot clinics   │
+│  capture     │  │• Validation  │  │• Fix gaps    │  │• Track outcomes      │
+│• Drug/PBM    │  │  engine      │  │• Sign pilots │  │• Iterate rapidly     │
+│  criteria    │  │• Reviewer    │  │• Training    │  │• Build case studies  │
+│• CMS data    │  │  workbench   │  │• MN market   │  │                      │
+│  analysis    │  │              │  │  outreach    │  │                      │
+│• Infra setup │  │              │  │              │  │                      │
+└──────────────┘  └──────────────┘  └──────────────┘  └──────────────────────┘
 ```
 
 ---
@@ -481,11 +488,11 @@ JAN             FEB             MAR             APR             MAY-JUN
 
 | Date | Milestone | Success Criteria |
 |------|-----------|------------------|
-| **Jan 31, 2026** | Foundation Complete | 15 drugs × 4 PBMs documented; platform scaffolded |
-| **Feb 28, 2026** | MVP Complete | Validation engine + reviewer workbench functional |
-| **Mar 31, 2026** | Pilots Signed | 2-3 LOIs/contracts with pilot practices |
-| **Apr 15, 2026** | Go Live | First live PA submissions processed |
-| **Jun 30, 2026** | Pilot Review | 85%+ first-pass rate; customer testimonials |
+| **Feb 28, 2026** | Foundation Complete | Top 15 drugs × 4 PBMs documented; infrastructure ready |
+| **Apr 30, 2026** | MVP Complete | Validation engine + reviewer workbench functional |
+| **Jun 20, 2026** | Pilots Signed | 2-3 LOIs/contracts with MN specialty practices |
+| **Jul 7, 2026** | **MVP Go Live** | First live PA submissions processed |
+| **Sep 30, 2026** | Pilot Review | 85%+ first-pass rate; customer testimonials |
 | **Dec 31, 2026** | Growth Phase | 10+ paying customers; path to profitability clear |
 
 ---
@@ -591,10 +598,10 @@ JAN             FEB             MAR             APR             MAY-JUN
 | Align on commitment levels | This week | All partners |
 | Begin knowledge extraction sessions | January 2026 | Pharmacist + Founder |
 | Identify pilot customer targets | January 2026 | All partners |
-| Finalize operating agreement | January 2026 | Founder + Legal |
-| Build MVP | February 2026 | Founder |
-| Sign pilot customers | March 2026 | All partners |
-| Go live | April 2026 | Team |
+| Finalize operating agreement | February 2026 | Founder + Legal |
+| Build MVP | March – April 2026 | Founder |
+| Test & sign pilot customers | May – June 2026 | All partners |
+| **MVP Go Live** | **July 7, 2026** | Team |
 
 ---
 
@@ -673,32 +680,37 @@ JAN             FEB             MAR             APR             MAY-JUN
 
 ### A: Detailed Drug/PBM Coverage Plan
 
-**Initial Drug List (Phase 1):**
+**Initial Drug List (Phase 1) — Ranked by CMS PA Burden Score:**
 
-| Drug | Class | Therapeutic Area | Priority |
-|------|-------|------------------|----------|
-| Mounjaro | GLP-1/GIP agonist | Diabetes/Weight | High |
-| Zepbound | GLP-1/GIP agonist | Weight Management | High |
-| Wegovy | GLP-1 agonist | Weight Management | High |
-| Ozempic | GLP-1 agonist | Diabetes | High |
-| Humira | TNF inhibitor | Autoimmune | High |
-| Stelara | IL-12/23 inhibitor | Autoimmune/Derm | High |
-| Skyrizi | IL-23 inhibitor | Psoriasis | Medium |
-| Rinvoq | JAK inhibitor | Autoimmune | Medium |
-| Dupixent | IL-4/13 inhibitor | Atopic Derm/Asthma | Medium |
-| Keytruda | PD-1 inhibitor | Oncology | High |
-| Opdivo | PD-1 inhibitor | Oncology | Medium |
-| Ibrance | CDK4/6 inhibitor | Oncology | Medium |
+| Rank | Drug (Brand) | PA Rate | Annual Claims | Annual Spend | Therapeutic Area | Priority |
+|------|-------------|---------|---------------|--------------|------------------|----------|
+| 1 | Semaglutide (Ozempic, Wegovy, Rybelsus) | 99.96% | 7.2M | $9.7B | Diabetes/Weight | Tier 1 |
+| 2 | Dulaglutide (Trulicity) | 99.96% | 4.9M | $6.7B | Diabetes | Tier 1 |
+| 3 | Tirzepatide (Mounjaro) | 99.96% | 1.5M | $2.0B | Diabetes/Weight | Tier 1 |
+| 4 | Adalimumab (Humira) | 98.7% | 545K | $4.9B | Immunology | Tier 1 |
+| 5 | Evolocumab (Repatha) | 95.6% | 1.2M | $1.0B | Cardiovascular | Tier 1 |
+| 6 | Dupilumab (Dupixent) | 100% | 351K | $1.4B | Dermatology | Tier 1 |
+| 7 | Cyclosporine (Restasis, Cequa) | 82.7% | 1.6M | $1.6B | Immunology | Tier 1 |
+| 8 | Etanercept (Enbrel) | 97.9% | 332K | $2.6B | Immunology | Tier 2 |
+| 9 | Lenalidomide (Revlimid) | 97.8% | 293K | $4.8B | Oncology | Tier 2 |
+| 10 | Upadacitinib (Rinvoq) | 97.9% | 119K | $802M | Immunology | Tier 2 |
+| 11 | Secukinumab (Cosentyx) | 97.2% | 102K | $785M | Immunology | Tier 2 |
+| 12 | Apremilast (Otezla) | 100% | 133K | $640M | Immunology | Tier 2 |
+| 13 | Ibrutinib (Imbruvica) | 97.7% | 132K | $2.1B | Oncology | Tier 2 |
+| 14 | Palbociclib (Ibrance) | 98.0% | 108K | $1.7B | Oncology | Tier 2 |
+| 15 | Alirocumab (Praluent) | 100% | 448K | $362M | Cardiovascular | Tier 2 |
+
+*Source: CMS Formulary PUF & Part D Prescribers Dataset (CY2023) analysis*
 
 **Initial PBM Coverage:**
 
-| PBM | Market Share | Priority |
-|-----|--------------|----------|
-| CVS Caremark | ~33% | High |
-| Express Scripts | ~24% | High |
-| OptumRx | ~23% | High |
-| Prime Therapeutics | ~8% | High (founder expertise) |
-| Humana Pharmacy | ~5% | Medium |
+| PBM | Market Share | Priority | Notes |
+|-----|--------------|----------|-------|
+| CVS Caremark | ~33% | High | 11.6% denial rate, 93% overturn on appeal |
+| Express Scripts | ~24% | High | |
+| OptumRx | ~23% | High | 12.6% denial rate (highest nationally) |
+| Prime Therapeutics | ~8% | High | Founder expertise; MN presence |
+| Humana Pharmacy | ~5% | Medium | |
 
 ---
 
@@ -708,20 +720,19 @@ JAN             FEB             MAR             APR             MAY-JUN
 
 | Quarter | Customers | Submissions/Month | Revenue |
 |---------|-----------|-------------------|---------|
-| Q2 | 3 (pilot) | 75 | $5,625 |
-| Q3 | 7 | 200 | $15,000 |
-| Q4 | 12 | 400 | $30,000 |
-| **Year 1 Total** | | | **~$100,000** |
+| Q3 (Jul 7 Go Live) | 3 (pilot) | 75 | $5,625 |
+| Q4 | 7 | 200 | $15,000 |
+| **Year 1 Total** | | | **~$50,000** |
 
 **Year 2 (2027) — Growth:**
 
 | Quarter | Customers | Submissions/Month | Revenue |
 |---------|-----------|-------------------|---------|
-| Q1 | 18 | 600 | $45,000 |
-| Q2 | 25 | 900 | $67,500 |
-| Q3 | 35 | 1,300 | $97,500 |
-| Q4 | 50 | 2,000 | $150,000 |
-| **Year 2 Total** | | | **~$720,000** |
+| Q1 | 12 | 400 | $30,000 |
+| Q2 | 18 | 600 | $45,000 |
+| Q3 | 25 | 900 | $67,500 |
+| Q4 | 35 | 1,300 | $97,500 |
+| **Year 2 Total** | | | **~$480,000** |
 
 *Assumes $75 average revenue per submission. Actual results will vary.*
 
@@ -790,6 +801,6 @@ JAN             FEB             MAR             APR             MAY-JUN
 
 ---
 
-*Document Version: 1.0*
-*Last Updated: January 2026*
+*Document Version: 2.0*
+*Last Updated: March 2026*
 *Confidential — FirstPass Rx*

@@ -46,12 +46,16 @@ For high-cost drugs like Mounjaro, Keytruda, and Humira, the stakes are even hig
 
 ### Market Opportunity
 
-| Metric | Value |
-|--------|-------|
-| US Specialty Drug Spend | **$350B+** annually |
-| Specialty Drugs Requiring PA | **>90%** |
-| Target Segments | Oncology, Dermatology, Endocrinology, Rheumatology |
-| Initial Focus | 15 high-cost drugs × 4 major PBMs |
+| Metric | Value | Source |
+|--------|-------|--------|
+| Annual PA-Gated Drug Spend | **$75.5 billion** | CMS Formulary PUF Analysis |
+| Drug-Plan Combos Requiring PA | **28.1%** | CMS Jan 2026 |
+| Drugs with Near-Universal PA (80%+ of plans) | **1,349** | CMS Formulary PUF |
+| Appeal Overturn Rate | **80.7%** — most denials were approvable | KFF/CMS 2024 |
+| Recoverable Approvals Left on Table | **2.9 million/year** ($4.0B) | Calculated from CMS data |
+| Minnesota Pilot Market (PA-Gated Cost) | **$1.06 billion** | CMS + MN PBM Transparency |
+| Target Segments | Endocrinology, Immunology, Oncology, Dermatology | CMS PA Burden Analysis |
+| Initial Focus | Top 15 highest-burden drugs × 4 major PBMs | Data-driven priority list |
 
 **Competitive gap:** ePA platforms (CoverMyMeds, Surescripts) transmit fast but don't validate. Outsourced PA services use labor arbitrage but don't build intelligence. No one is focused on specialty drug PA quality.
 
@@ -67,17 +71,19 @@ For high-cost drugs like Mounjaro, Keytruda, and Humira, the stakes are even hig
 
 **Example:** A 5-physician endocrinology practice submitting 40 specialty PAs/month = ~$3,000/month revenue
 
+**Pilot market:** Minnesota — 115 endocrinologists (184 PAs/year each) + 79 rheumatologists (~163 PAs/year each) across Minneapolis/St. Paul metro + Rochester, focused on GLP-1 and TNF inhibitor PAs.
+
 ---
 
 ### Traction & Timeline
 
 | Milestone | Date |
 |-----------|------|
-| Knowledge extraction complete | January 2026 |
-| MVP platform ready | February 2026 |
-| Pilot customers signed | March 2026 |
-| **Live pilot launch** | **April 2026** |
-| Pilot results & case studies | June 2026 |
+| Foundation & knowledge extraction | January – February 2026 |
+| MVP platform build | March – April 2026 |
+| System testing & pilot customers signed | May – June 2026 |
+| **MVP Go Live** | **July 7, 2026** |
+| Pilot results & case studies | September 2026 |
 | Growth phase (10+ customers) | Q4 2026 |
 
 ---
@@ -105,5 +111,5 @@ Co-Founder & CEO
 ---
 
 <div style="text-align: center; font-size: 0.8em; color: #666; margin-top: 20px;">
-Confidential | January 2026
+Confidential | March 2026
 </div>
