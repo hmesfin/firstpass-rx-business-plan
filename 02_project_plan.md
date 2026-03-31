@@ -60,9 +60,9 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | ID | Task | Owner | Dependencies | Due Date | Status |
 |----|------|-------|--------------|----------|--------|
-| 1.1.1 | Decide on business entity structure (LLC vs C-Corp) | Project Lead | None | Jan 14 | ☐ Not Started |
-| 1.1.2 | Register business entity | Project Lead | 1.1.1 | Jan 28 | ☐ Not Started |
-| 1.1.3 | Obtain EIN from IRS | Project Lead | 1.1.2 | Jan 31 | ☐ Not Started |
+| 1.1.1 | Decide on business entity structure (LLC vs C-Corp) | Project Lead | None | Jan 14 | ☐ **Done**|
+| 1.1.2 | Register business entity | Project Lead | 1.1.1 | Jan 28 | ☐ **Done** |
+| 1.1.3 | Obtain EIN from IRS | Project Lead | 1.1.2 | Jan 31 | ☐ **Done** |
 | 1.1.4 | Draft founder/partner operating agreement | Project Lead | 1.1.1 | Feb 7 | ☐ Not Started |
 | 1.1.5 | Review and sign operating agreement | All Partners | 1.1.4 | Feb 14 | ☐ Not Started |
 | 1.1.6 | Set up business bank account | Project Lead | 1.1.2, 1.1.3 | Feb 14 | ☐ Not Started |
@@ -72,7 +72,7 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 **Deliverables:**
 
-- [ ] Registered business entity
+- [x] Registered business entity
 - [ ] Signed operating agreement
 - [ ] BAA template
 - [ ] Pilot agreement template
@@ -83,10 +83,10 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | ID | Task | Owner | Dependencies | Due Date | Status |
 |----|------|-------|--------------|----------|--------|
-| 1.2.1 | Finalize initial drug list using CMS PA burden analysis (top 15) | Clinical Lead | None | Jan 14 | ☐ Not Started |
-| 1.2.2 | Finalize initial PBM list (4 PBMs) using payer restrictiveness data | Clinical Lead | None | Jan 14 | ☐ Not Started |
-| 1.2.3 | Gather official PA criteria documents from PBM websites | Clinical Lead | 1.2.1, 1.2.2 | Jan 21 | ☐ Not Started |
-| 1.2.4 | Schedule knowledge extraction sessions | Project Lead | 1.2.3 | Jan 17 | ☐ Not Started |
+| 1.2.1 | Finalize initial drug list using CMS PA burden analysis (top 15) | Clinical Lead | None | Jan 14 | ☐ **Done** |
+| 1.2.2 | Finalize initial PBM list (4 PBMs) using payer restrictiveness data | Clinical Lead | None | Jan 14 | ☐ **Done** |
+| 1.2.3 | Gather official PA criteria documents from PBM websites | Clinical Lead | 1.2.1, 1.2.2 | Jan 21 | ☐ **In Process** |
+| 1.2.4 | Schedule knowledge extraction sessions | Project Lead | 1.2.3 | Jan 17 | ☐ **In Process** |
 | 1.2.5 | Complete extraction: Semaglutide (Ozempic/Wegovy) + Prime | Clinical Lead | 1.2.3 | Jan 28 | ☐ Not Started |
 | 1.2.6 | Complete extraction: Semaglutide + Express Scripts | Clinical Lead | 1.2.5 | Feb 4 | ☐ Not Started |
 | 1.2.7 | Complete extraction: Semaglutide + CVS Caremark | Clinical Lead | 1.2.6 | Feb 7 | ☐ Not Started |
@@ -98,8 +98,8 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 **Deliverables:**
 
-- [ ] Data-driven prioritized drug list (CMS PA burden analysis)
-- [ ] Prioritized PBM list with restrictiveness scoring
+- [x] Data-driven prioritized drug list (CMS PA burden analysis)
+- [x] Prioritized PBM list with restrictiveness scoring
 - [ ] 15-20 completed extraction worksheets (drug + PBM combinations)
 - [ ] Source documentation library (official PA policies, forms)
 
@@ -109,9 +109,9 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | ID | Task | Owner | Dependencies | Due Date | Status |
 |----|------|-------|--------------|----------|--------|
-| 1.3.1 | Register domain (firstpassrx.com) | Project Lead | None | Jan 7 | ☐ Not Started |
+| 1.3.1 | Register domain (firstpassrx.com) | Project Lead | None | Jan 7 | ☐ **Done** |
 | 1.3.2 | Set up email (e.g., Google Workspace) | Project Lead | 1.3.1 | Jan 14 | ☐ Not Started |
-| 1.3.3 | Provision server (Hetzner) | Project Lead | None | Jan 14 | ☐ Not Started |
+| 1.3.3 | Provision server (Hetzner) | Project Lead | None | Jan 14 | ☐ **Done** |
 | 1.3.4 | Configure Docker environment | Project Lead | 1.3.3 | Jan 21 | ☐ Not Started |
 | 1.3.5 | Set up PostgreSQL database | Project Lead | 1.3.4 | Jan 21 | ☐ Not Started |
 | 1.3.6 | Set up S3-compatible storage (Minio or Hetzner) | Project Lead | 1.3.4 | Jan 21 | ☐ Not Started |
@@ -136,7 +136,7 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | ID | Task | Owner | Dependencies | Due Date | Status |
 |----|------|-------|--------------|----------|--------|
-| 1.4.1 | Kickoff meeting with all partners | Project Lead | None | Jan 7 | ☐ Not Started |
+| 1.4.1 | Kickoff meeting with all partners | Project Lead | None | Jan 7 | ☐ **Done**|
 | 1.4.2 | Align on equity/compensation structure | All Partners | 1.4.1 | Jan 21 | ☐ Not Started |
 | 1.4.3 | Align on time commitments and responsibilities | All Partners | 1.4.1 | Jan 21 | ☐ Not Started |
 | 1.4.4 | Identify potential clinical advisor candidates | All Partners | 1.4.1 | Jan 28 | ☐ Not Started |
@@ -159,21 +159,21 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | ID | Task | Owner | Dependencies | Due Date | Status |
 |----|------|-------|--------------|----------|--------|
-| 1.5.1 | Complete CMS Formulary PUF analysis (PA rates by drug/plan) | Project Lead | None | Jan 21 | ☐ Not Started |
-| 1.5.2 | Complete Part D Prescribers dataset analysis (prescriber volume) | Project Lead | 1.5.1 | Jan 28 | ☐ Not Started |
-| 1.5.3 | Analyze MN market opportunity (plans, prescribers, PA-gated cost) | Project Lead | 1.5.2 | Feb 7 | ☐ Not Started |
-| 1.5.4 | Build PA burden scoring model for drug prioritization | Project Lead | 1.5.1 | Feb 7 | ☐ Not Started |
-| 1.5.5 | Identify target payer list with restrictiveness rankings | Project Lead | 1.5.1 | Feb 14 | ☐ Not Started |
-| 1.5.6 | Build value proposition model (market penetration × approval improvement) | Project Lead | 1.5.1, 1.5.2 | Feb 14 | ☐ Not Started |
-| 1.5.7 | Document findings and update business plan | Project Lead | 1.5.1-1.5.6 | Feb 21 | ☐ Not Started |
+| 1.5.1 | Complete CMS Formulary PUF analysis (PA rates by drug/plan) | Project Lead | None | Jan 21 | ☐ **Done** |
+| 1.5.2 | Complete Part D Prescribers dataset analysis (prescriber volume) | Project Lead | 1.5.1 | Jan 28 | ☐ **Done** |
+| 1.5.3 | Analyze MN market opportunity (plans, prescribers, PA-gated cost) | Project Lead | 1.5.2 | Feb 7 | ☐ **Done** |
+| 1.5.4 | Build PA burden scoring model for drug prioritization | Project Lead | 1.5.1 | Feb 7 | ☐ **Done** |
+| 1.5.5 | Identify target payer list with restrictiveness rankings | Project Lead | 1.5.1 | Feb 14 | ☐ **Done** |
+| 1.5.6 | Build value proposition model (market penetration × approval improvement) | Project Lead | 1.5.1, 1.5.2 | Feb 14 | ☐ **Done** |
+| 1.5.7 | Document findings and update business plan | Project Lead | 1.5.1-1.5.6 | Feb 21 | ☐ **Done** |
 
 **Deliverables:**
 
-- [ ] Priority drug list ranked by PA burden score
-- [ ] Target payer list with restrictiveness scores
-- [ ] Value proposition model with scenario analysis
-- [ ] MN market opportunity analysis
-- [ ] Updated business plan with CMS data-backed metrics
+- [x] Priority drug list ranked by PA burden score
+- [x] Target payer list with restrictiveness scores
+- [x] Value proposition model with scenario analysis
+- [x] MN market opportunity analysis
+- [x] Updated business plan with CMS data-backed metrics
 
 ---
 
@@ -183,14 +183,14 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | Milestone | Status |
 |-----------|--------|
-| ☐ Business entity registered and operational | |
+| ☐ Business entity registered and operational | **Done** |
 | ☐ Operating agreement signed by all partners | |
 | ☐ 15-20 drug/PBM extraction worksheets completed | |
 | ☐ Infrastructure environment ready for development | |
 | ☐ Team aligned on roles, equity, and commitments | |
 | ☐ Clinical advisor identified or in active discussions | |
 | ☐ Legal templates (BAA, pilot agreement) drafted | |
-| ☐ CMS data analysis complete with drug/payer targeting | |
+| ☐ CMS data analysis complete with drug/payer targeting | **Done** |
 
 ---
 
@@ -211,8 +211,8 @@ This project plan outlines all tasks, milestones, and deliverables required to l
 
 | ID | Task | Owner | Dependencies | Due Date | Status |
 |----|------|-------|--------------|----------|--------|
-| 2.1.1 | Initialize Django project with standard structure | Project Lead | Phase 1 complete | Mar 5 | ☐ Not Started |
-| 2.1.2 | Create core data models (Drug, PBM, PACriteria) | Project Lead | 2.1.1 | Mar 10 | ☐ Not Started |
+| 2.1.1 | Initialize Django project with standard structure | Project Lead | Phase 1 complete | Mar 5 | ☐ **Done** |
+| 2.1.2 | Create core data models (Drug, PBM, PACriteria) | Project Lead | 2.1.1 | Mar 10 | ☐ **Done** |
 | 2.1.3 | Create customer/practice models | Project Lead | 2.1.1 | Mar 10 | ☐ Not Started |
 | 2.1.4 | Create PASubmission and related models | Project Lead | 2.1.2, 2.1.3 | Mar 14 | ☐ Not Started |
 | 2.1.5 | Create document/attachment models | Project Lead | 2.1.4 | Mar 17 | ☐ Not Started |
