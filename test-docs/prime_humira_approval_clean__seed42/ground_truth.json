@@ -1,0 +1,42 @@
+{
+  "expected_appeal_steps": [],
+  "expected_decision": "approve",
+  "expected_denial_reason_code": null,
+  "expected_pipeline_extractions": {
+    "clinical_notes": {
+      "allergies": [],
+      "contraindications_note": null,
+      "diagnosis_text": "Rheumatoid arthritis, unspecified",
+      "icd10_codes": [
+        "M06.9"
+      ],
+      "labs": [],
+      "prior_medications": [
+        {
+          "dates_taken": null,
+          "discontinuation_reason": "inadequate response",
+          "name": "methotrexate"
+        }
+      ]
+    },
+    "eob": {
+      "denial_code": null,
+      "denial_reason_text": null,
+      "drug_name": "HUMIRA",
+      "drug_quantity": "2",
+      "drug_strength": "40 mg/0.4 mL pen"
+    }
+  },
+  "files": {
+    "clinical_notes.pdf": "sha256:b0cb26bffd6a415e5de83ffacb79e9036516aa0688ecb337ded0f7ee6b644355",
+    "eob.pdf": "sha256:bec539a971d8a1fe2d39d1e12382a78270a73f08e6c6b03d382453921e7d79fb",
+    "pbm_form.pdf": "sha256:0fa4b0e9e3aad10c3d5af9908145c2313153e30f5d3cc621b59c798785fa21c3"
+  },
+  "generated_at": "2026-04-27T16:55:47.353644+00:00",
+  "scenario_id": "prime_humira_approval_clean",
+  "schema_versions": {
+    "clinical_notes": "clinical_notes.v1",
+    "eob": "eob.v1"
+  },
+  "seed": 42
+}

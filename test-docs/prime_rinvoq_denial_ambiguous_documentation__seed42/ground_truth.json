@@ -1,0 +1,39 @@
+{
+  "expected_appeal_steps": [
+    "submit_specific_dmard_trial_documentation",
+    "written_appeal_60_days"
+  ],
+  "expected_decision": "deny",
+  "expected_denial_reason_code": "PRIME_DENY_INSUFFICIENT_DOCUMENTATION",
+  "expected_pipeline_extractions": {
+    "clinical_notes": {
+      "allergies": [],
+      "contraindications_note": null,
+      "diagnosis_text": "Rheumatoid arthritis, unspecified",
+      "icd10_codes": [
+        "M06.9"
+      ],
+      "labs": [],
+      "prior_medications": []
+    },
+    "eob": {
+      "denial_code": "PRIME_DENY_INSUFFICIENT_DOCUMENTATION",
+      "denial_reason_text": null,
+      "drug_name": "RINVOQ",
+      "drug_quantity": "30",
+      "drug_strength": "15 mg tablet"
+    }
+  },
+  "files": {
+    "clinical_notes.pdf": "sha256:fdecf181f835c31c2375015bf107cdbf41fc4e73f8c37430dae0bf427ff9fb79",
+    "eob.pdf": "sha256:8cc9ca8b4f320a9d1d17f31c55f1bae19fc35a1bc43e965ecc61798def4a4017",
+    "pbm_form.pdf": "sha256:318063667aaf368499dcd05534d2c8adfb999458ef49922b0a185f1231535731"
+  },
+  "generated_at": "2026-04-27T16:56:36.210398+00:00",
+  "scenario_id": "prime_rinvoq_denial_ambiguous_documentation",
+  "schema_versions": {
+    "clinical_notes": "clinical_notes.v1",
+    "eob": "eob.v1"
+  },
+  "seed": 42
+}

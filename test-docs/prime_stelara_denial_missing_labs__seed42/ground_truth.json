@@ -1,0 +1,50 @@
+{
+  "expected_appeal_steps": [
+    "submit_tb_and_hepatitis_screening_results",
+    "written_appeal_60_days"
+  ],
+  "expected_decision": "deny",
+  "expected_denial_reason_code": "PRIME_DENY_MISSING_PRE_BIOLOGIC_LABS",
+  "expected_pipeline_extractions": {
+    "clinical_notes": {
+      "allergies": [],
+      "contraindications_note": null,
+      "diagnosis_text": "Crohn's disease, unspecified, without complications",
+      "icd10_codes": [
+        "K50.90"
+      ],
+      "labs": [],
+      "prior_medications": [
+        {
+          "dates_taken": null,
+          "discontinuation_reason": "inadequate response",
+          "name": "budesonide"
+        },
+        {
+          "dates_taken": null,
+          "discontinuation_reason": "inadequate response",
+          "name": "azathioprine"
+        }
+      ]
+    },
+    "eob": {
+      "denial_code": "PRIME_DENY_MISSING_PRE_BIOLOGIC_LABS",
+      "denial_reason_text": null,
+      "drug_name": "STELARA",
+      "drug_quantity": "1",
+      "drug_strength": "90 mg/1 mL prefilled syringe"
+    }
+  },
+  "files": {
+    "clinical_notes.pdf": "sha256:17541c21d2ff45e1421deca7a510e58fd44911953d5b49fb8c84d6412a011ac2",
+    "eob.pdf": "sha256:43ea862c2457866e373e0d7056c27bfa3b9c7e41386a32682eb4d64290ba4600",
+    "pbm_form.pdf": "sha256:d5d5651d95b8113899f7b2701f73c56534b1a711877c8ee4aec267d4f93b03d7"
+  },
+  "generated_at": "2026-04-27T16:57:11.485166+00:00",
+  "scenario_id": "prime_stelara_denial_missing_labs",
+  "schema_versions": {
+    "clinical_notes": "clinical_notes.v1",
+    "eob": "eob.v1"
+  },
+  "seed": 42
+}

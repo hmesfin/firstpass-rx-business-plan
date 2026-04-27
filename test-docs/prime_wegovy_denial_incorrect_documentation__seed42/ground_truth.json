@@ -1,0 +1,45 @@
+{
+  "expected_appeal_steps": [
+    "submit_extended_trial_documentation",
+    "written_appeal_60_days"
+  ],
+  "expected_decision": "deny",
+  "expected_denial_reason_code": "PRIME_DENY_INSUFFICIENT_TRIAL_DURATION",
+  "expected_pipeline_extractions": {
+    "clinical_notes": {
+      "allergies": [],
+      "contraindications_note": null,
+      "diagnosis_text": "Morbid (severe) obesity due to excess calories",
+      "icd10_codes": [
+        "E66.01"
+      ],
+      "labs": [],
+      "prior_medications": [
+        {
+          "dates_taken": "approximately 8 weeks",
+          "discontinuation_reason": "trial duration insufficient per chart",
+          "name": "metformin"
+        }
+      ]
+    },
+    "eob": {
+      "denial_code": "PRIME_DENY_INSUFFICIENT_TRIAL_DURATION",
+      "denial_reason_text": null,
+      "drug_name": "WEGOVY",
+      "drug_quantity": "4",
+      "drug_strength": "2.4 mg/0.75 mL pen"
+    }
+  },
+  "files": {
+    "clinical_notes.pdf": "sha256:485753da6c02b9a084c55a22156a2ff6233c281dc348c30fd3d41ca42ff2bd8d",
+    "eob.pdf": "sha256:eb577956578e27e0056f20ce61af5fe9ac22cb87442a29ea64b1ee48dc9a3d2c",
+    "pbm_form.pdf": "sha256:c6e5652dda0a2618f8cca4ba0fd989b50d9bd42e8038227456ac9104c4b7dd1a"
+  },
+  "generated_at": "2026-04-27T16:58:45.184833+00:00",
+  "scenario_id": "prime_wegovy_denial_incorrect_documentation",
+  "schema_versions": {
+    "clinical_notes": "clinical_notes.v1",
+    "eob": "eob.v1"
+  },
+  "seed": 42
+}

@@ -1,0 +1,39 @@
+{
+  "expected_appeal_steps": [
+    "peer_to_peer_review",
+    "written_appeal_60_days"
+  ],
+  "expected_decision": "deny",
+  "expected_denial_reason_code": "PRIME_DENY_STEP_THERAPY",
+  "expected_pipeline_extractions": {
+    "clinical_notes": {
+      "allergies": [],
+      "contraindications_note": null,
+      "diagnosis_text": "Type 2 diabetes mellitus without complications",
+      "icd10_codes": [
+        "E11.9"
+      ],
+      "labs": [],
+      "prior_medications": []
+    },
+    "eob": {
+      "denial_code": "PRIME_DENY_STEP_THERAPY",
+      "denial_reason_text": null,
+      "drug_name": "OZEMPIC",
+      "drug_quantity": "1",
+      "drug_strength": "1 mg/dose pen"
+    }
+  },
+  "files": {
+    "clinical_notes.pdf": "sha256:ada1e47e6daf19b7f0f4d9a6fed6a66364a08f2604c7894edc43a78175bc8e02",
+    "eob.pdf": "sha256:833987656e9aff83864a990eba00a648570f410399ef32b6588ac6bc3d47d1a8",
+    "pbm_form.pdf": "sha256:0f9eaf7849592719038c6ae0317c67a9c2f326b1ebe29e6ec0777552e20d03ba"
+  },
+  "generated_at": "2026-04-27T16:45:58.397037+00:00",
+  "scenario_id": "prime_ozempic_denial_step_therapy",
+  "schema_versions": {
+    "clinical_notes": "clinical_notes.v1",
+    "eob": "eob.v1"
+  },
+  "seed": 42
+}
